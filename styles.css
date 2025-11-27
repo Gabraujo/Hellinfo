@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.lista {
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+}
+
+body {
+  background-image: url(img/helldivers-2-video-thumbnail-01-en-06dec23.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0.089);
+  color: white;
+}
+
+button {
+  background-color: rgba(255, 230, 0, 0.836);
+}
+
+a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.178);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.562);
+  color: yellow;
+}
+
+a:active {
+  background-color: rgb(3, 0, 206);
+}
