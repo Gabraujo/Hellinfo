@@ -54,3 +54,10 @@ a:hover {
 a:active {
   background-color: rgb(3, 0, 206);
 }
+
+#prox {
+  margin-top: 20px;
+}
+
+#idiv {
+}
