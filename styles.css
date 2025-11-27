@@ -27,6 +27,8 @@ body {
 iframe {
   display: block;
   margin: 0 auto;
+  width: 70vw;
+  height: 60vh;
 }
 
 input {
@@ -57,7 +59,4 @@ a:active {
 
 #prox {
   margin-top: 20px;
-}
-
-#idiv {
 }
