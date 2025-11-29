@@ -18,17 +18,21 @@ div {
 }
 
 body {
-  background-image: url(img/helldivers-2-video-thumbnail-01-en-06dec23.webp);
+  background-image: url(img/homemedia.webp);
+  background-color: rgba(0, 0, 0, 0.699);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
+  background-position: center center;
+  height: 100%;
+  background-attachment: fixed;
 }
 
 iframe {
   display: block;
   margin: 0 auto;
-  width: 70vw;
-  height: 60vh;
+  width: 50vw;
+  height: 30vh;
 }
 
 input {
@@ -40,23 +44,14 @@ button {
   background-color: rgba(255, 230, 0, 0.836);
 }
 
-a {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.178);
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
+@media only screen and (max-width: 1000px) {
+  body {
+    background-image: url(img/homepequeno.webp);
+  }
 }
 
-a:hover {
-  background-color: rgba(0, 0, 0, 0.562);
-  color: yellow;
-}
-
-a:active {
-  background-color: rgb(3, 0, 206);
-}
-
-#prox {
-  margin-top: 20px;
+@media only screen and (min-width: 1500px) {
+  body {
+    background-image: url(img/helldivers-2-video-thumbnail-01-en-06dec23.webp);
+  }
 }

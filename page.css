@@ -12,6 +12,7 @@ h2 {
 
 p {
   font-size: 1.5rem;
+  padding-left: 10px;
 }
 
 body {
@@ -82,4 +83,30 @@ div {
   background-image: url(img/Hive_World_Rocky_Cave_Covering.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#hauto {
+  color: rgb(189, 69, 69);
+}
+
+#camdiv {
+  background-image: url(img/Rainforests_of_Tarsh.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hulkdiv {
+  background-image: url(img/Helldivers_2_SS_1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tandiv {
+  background-image: url(img/Mastia_jammer.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hilu {
+  color: rgb(117, 117, 235);
 }
