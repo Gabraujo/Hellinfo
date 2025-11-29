@@ -70,10 +70,16 @@ a:active {
   background-color: rgb(3, 0, 206);
 }
 
-#ant {
+#voltar {
   margin-top: 20px;
 }
 
 div {
   text-align: center;
+}
+
+#demp {
+  background-image: url(img/Hive_World_Rocky_Cave_Covering.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
